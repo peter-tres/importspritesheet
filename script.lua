@@ -47,5 +47,5 @@ for row = 0, rows - 1 do
   end
 end
 
-local outPath = "/export/" .. app.fs.filePath(filename) .. "/" .. app.fs.fileTitle(filename) .. ".aseprite"
+local outPath = "./export/" .. app.fs.filePath(filename) .. "/" .. app.fs.fileTitle(filename) .. ".aseprite"
 newSprite:saveCopyAs(outPath)
